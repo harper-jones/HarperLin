@@ -1,0 +1,29 @@
+body {
+    overflow-x: hidden;
+    & ::selection{
+        background-color: $secondary;
+    }
+}
+
+a{
+    transition: all 0.3s;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.right-0 {
+    right: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.font-jp {
+    font-family: "Noto Sans JP";
+}
+
+.text-underline{
+    text-decoration: underline;
+}
