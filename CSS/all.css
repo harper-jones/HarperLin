@@ -11788,6 +11788,12 @@ a:hover {
   text-decoration: underline;
 }
 
+@media (min-width: 768px) {
+  .text-md-justify {
+    text-align: justify;
+  }
+}
+
 .navbar {
   z-index: 999;
   -webkit-backdrop-filter: blur(72px);
